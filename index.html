@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Example</title>
+</head>
+<body>
+    
+    <header class=header>
+        <h1 class="header_head1">Example</h1>
+    </header>
+
+    <hr>
+    <div>
+        <dl class="dl">
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+        </dl>
+    </div>
+    <hr>
+    <div>
+        <p><i>This is</i> <del>p</del> <ins>paragraph</ins>!</p>
+    </div>
+
+    <div>
+        <details class="details">
+            <summary>Summary</summary>
+            This is details.
+        </details>
+    </div>
+
+    <div>
+        <dialog open>This is a open dialog window</dialog>
+    </div>
+
+    <figure>
+        <embed type="image/jpg" src="https://pixabay.com/get/53e2d1464353ab14f1dc8460da2932771438d7e5565771_640.jpg" width="300" height="200">
+        <figcaption>Fig. Nature</figcaption>
+    </figure>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/668nUCeBHyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <form action="./index.html">
+        <fieldset>
+          <legend>Login:</legend>
+          <label for="username">Username:</label>
+          <input type="text" name="username"><br>
+          <label for="password">Password</label>
+          <input type="password" name="password"><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <label for="load">Loaging</label>
+    <meter name="load" value="5" min="0" max="10">5 out of 10</meter>
+
+    <h3>Nav Elements</h3>
+    <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </nav>
+
+    <script>document.write("Hello")</script>
+    <noscript>Your browsr dose not support java scrept</noscript>
+    <br><br>
+    <select name="" id="" >
+        <option value="">select</option>
+        <optgroup label="Something">
+            <option value="">A</option>
+            <option value="">3</option>
+            <option value="">Ai</option>
+        </optgroup>
+        <optgroup label="Nothing"></optgroup>
+    </select>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" id="a" >
+        +<input type="number" id="b">
+        =<output name="x" for="a b"></output>
+    </form>
+
+    <p><kbd><mark>Ctrl</mark></kbd> + <kbd><mark>R</mark></kbd> for relode this page.</p>
+
+    <footer class="footer">
+        <h1 class="footer_head1">Example</h1>
+        <br>
+        <address class="footer_address">
+            <h2 style="display: inline;">CONTACT US</h2> <br>
+            Address: <br>
+            Phone_Number: <br>
+            Email: <br>
+        </address>
+        <aside class="footer_aside">
+            <h2>Find Us:</h2>
+            <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+        </aside>
+    </footer>
+</body>
+</html>
